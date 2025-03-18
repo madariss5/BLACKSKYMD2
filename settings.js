@@ -1,13 +1,13 @@
 /*
-  project_name : jinwoo bot
+  project_name : Blacksky Bot
   Version : 2.4.0
-  Owner : Malvin King 
+  Owner : Martin 
   Clone if you can😪
 
 
 */
 
-//----------------------[ JINWOO-V2 ]----------------------//
+//----------------------[ BLACKSKY-MD V2 ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,24 +16,24 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'MALVIN-XD~MhhHjRxB#ybK_UNAtUybB9BqYRnwQhbTWCg1VCqSBt25bMVzYLyQ' 
 //Enter your Jinwoo session id here; must start with MALVIN-XD~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
-
+global.botname = process.env.BOT_NAME || 'BLACKSKY-MD'
+  
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263714757857' 
+global.ownernumber = process.env.OWNER_NUMBER || '4915563151347'
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Malvin King' 
+global.ownername = process.env.OWNER_NAME || 'Martin' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "JINWOO" 
+global.packname = process.env.STICKER_PACK_NAME || "BLACKSKY" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
@@ -41,7 +41,7 @@ global.author = process.env.STICKER_AUTHOR_NAME || "SUNG"
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Europe/Germany" 
 //Don't edit this if you don't know!
 
 //----------------[ GITHUB DATABASE ]-----------------//
@@ -58,7 +58,7 @@ global.plink = process.env.PLINK || "https://www.youtube.com/@malvintech2"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Jinwoo-ʙᴏᴛ"
+global.wm = process.env.GL_WM || "> ©BLACKSKYY"
 
 //---------------------[ REPLIES ]-----------------------//
 
